@@ -9,7 +9,7 @@ function App() {
       <Header></Header>
       <Shop></Shop>
     </div>
-  );
+  )
 }
 
 export default App;
