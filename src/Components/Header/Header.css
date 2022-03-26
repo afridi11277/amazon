@@ -1,6 +1,6 @@
 .header{
     height:80px;
-    background-color: #1c2b35;
+    background-color: lightblue;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,7 +23,7 @@
 
 nav{
      height:80px;
-    background-color: #1c2b35;
+    background-color: lightblue;
     display: flex;
     align-items: center;
     justify-content: space-between;

@@ -7,18 +7,21 @@ const Product = (props) => {
     // const{handleClick}=  props
     // console.log(props.product);
     const{product,handleClick}=props;
-    const {name,img,seller,price,ratings} = props.product;
-    // console.log(props);
+    const {name,images,price} = props.product;
+    // console.log(props.product);
+    
     
     return (
+        
         <div className='product'>
-            <img src={img} alt=""></img>
+            
+            <img src={images} alt=""></img>
             <div className="product-info">
-                <h3 className='product-name'>{name}</h3>
+                <h2 className='product-name'>{name}</h2>
                 <p>Price: ${price}</p>
-                <p><small>seller: {seller}</small></p>
-                <p><small>Ratings: {ratings} stars</small></p>
+                
             </div>
+            <br />
             <button onClick={()=>handleClick(product)} className='btn-cart'>
                 <p className='btn-text'>add to cart</p>
 
